@@ -34,6 +34,9 @@ a.btn {
   opacity: 1;
 }
 
+header {
+  z-index: 9;
+}
 section {
   display: flex;
   flex-direction: column;
@@ -68,6 +71,8 @@ section h3.title {
 }
 
 section p {
+    margin-left: auto;
+  margin-right: auto;
   max-width: 775px;
   line-height: 2;
   padding: 0 20px;
